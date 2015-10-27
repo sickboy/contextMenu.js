@@ -543,7 +543,9 @@
         clickEvent: function(e) {
             var button = e.data.trigger.get(0);
 
-            if ((button !== e.target) && ($(e.target).closest('.iw-contextMenu').length == 0)) {
+            if ((button !== e.target)) {
+              var target = $(e.target);
+              if ((target.closest('.iw-contextMenu').length == 0) && (target.closest(button).length == 0)) {
                 iMethods.closeContextMenu(e.data.option, e.data.trigger, e.data.menu, e);
             }
         },
