@@ -1,0 +1,19 @@
+{
+  "name": "contextMenu",
+  "version": "1.4.0",
+  "description": "contextMenu.js\r ==============\r <p>contextMenu.js is a   plugin to create windows like context menu with keyboard interaction, different  type of inputs ,trigger events and much more.<br />\r   Why contextMenu.js ?:</p>\r <ul>\r   <li>Use as simple popup or as a context menu. With some tweaking, it can be used for multiple purposes.</li>\r   <li>Adjust position and size to fit in viewport.</li>\r   <li>Keyboard interaction.</li>\r   <li>Support for different types of inputs (structure object, UL list)  .</li>\r   <li>Trigger Context menu with right-click, left-click,hover or any other mouse events.</li>\r   <li>Support touch devices.</li>\r   <li>Css outside of javascript so you can edit the  look of menu.</li>\r   <li>Enable/disable options.</li>\r   <li>Optional icons for commands.</li>\r   <li>Lot of configurable options.</li>\r   <li>Submenus</li>\r </ul>\r <strong>See demo and documentation on http://ignitersworld.com/lab/contextMenu.html</strong>",
+  "main": "contextMenu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sickboy/contextMenu.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sickboy/contextMenu.js/issues"
+  },
+  "homepage": "https://github.com/sickboy/contextMenu.js#readme"
+}
